@@ -20,6 +20,22 @@ Includes sentiment analysis, session-based chat memory, and local JSON conversat
 
 ---
 
+### TO RUN THE APPLICATION
+1.  **Clone the repository:**
+    ```bash
+    git clone [Your-Repo-URL]
+    cd flowstate-talent
+    ```
+2.  **Install dependencies:*
+    ```bash
+    pip install -r requirements.txt
+    ```
+3. **To RUN
+    ```bash
+    .venv\Scripts\python.exe -m streamlit run streamlit_langchain_app.py --server.port=8508
+    ```
+
+
 ## 🧠 Sentiment Analysis (Full Breakdown)
 
 ### 🔹 1. **User Message Sentiment (Simple)**
