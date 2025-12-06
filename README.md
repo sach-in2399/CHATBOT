@@ -15,5 +15,5 @@ A simple Streamlit app that shows how to build a chatbot using OpenAI's GPT-3.5.
 2. Run the app
 
    ```
-   $ streamlit run streamlit_langchain_app.py
+   $ .venv\Scripts\python.exe -m streamlit run streamlit_langchain_app.py --server.port=8503
    ```
